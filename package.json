@@ -1,29 +1,29 @@
 {
-  "name": "back-end",
+  "name": "teelab",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SUBACITO/Back-End.git"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SUBACITO/Back-End/issues"
-  },
-  "homepage": "https://github.com/SUBACITO/Back-End#readme",
+  "description": "",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^3.0.2",
+    "body-parse": "^0.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.1",
     "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.2"
   }
 }
